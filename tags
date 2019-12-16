@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/ff18000/
+_read_label_premiere	src/utils.py	/^def _read_label_premiere(csv_path):$/;"	f
+cut_data_by_time	src/utils.py	/^def cut_data_by_time(df_data, in_timestamp, out_timestamp, time_col = 'loggingTime(txt)'):$/;"	f
+dt2td	src/utils.py	/^    dt2td = lambda x : timedelta(hours=x.hour, minutes=x.minute, seconds=x.second, microseconds=/;"	f	function:string_to_timedelta	file:
+pd	src/utils.py	/^import pandas as pd$/;"	I
+python.pythonPath	.vscode/settings.json	/^    "python.pythonPath": "C:\\\\Users\\\\datta2\\\\.conda\\\\envs\\\\dev\\\\python.exe"$/;"	s
+read_label_csv	src/utils.py	/^def read_label_csv(csv_path, premiere = False):$/;"	f
+str2dt	src/utils.py	/^        str2dt = lambda x : datetime.strptime(x, '%H:%M:%S:%f')$/;"	f	function:string_to_timedelta	file:
+str2dt	src/utils.py	/^        str2dt = lambda x : datetime.strptime(x, '%H;%M;%S;%f')$/;"	f	function:string_to_timedelta	file:
+string_to_timedelta	src/utils.py	/^def string_to_timedelta(stringtime):$/;"	f
+to_Path	src/utils.py	/^def to_Path(path):$/;"	f
